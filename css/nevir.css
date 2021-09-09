@@ -52,6 +52,10 @@ body {
   color: #ffffff;
 }
 
+#ButtonDownload:hover {
+  background-color: #f7c65f;
+}
+
 #divHowtouseTitle,
 #divPatchnoteTitle,
 #divKnownissueTitle,
