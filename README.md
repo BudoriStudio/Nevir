@@ -67,3 +67,4 @@ NEVIR의 베타 버전이 출시 되었습니다.
 
 ## 다운로드
 https://budoristudio.github.io/nevir 에 접속하시면 다운로드 하실 수 있습니다.
+아직 iOS 버전은 제공되지 않습니다. 참고 부탁드립니다. 
