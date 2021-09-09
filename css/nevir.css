@@ -60,6 +60,8 @@ body {
 #divPatchnoteTitle,
 #divKnownissueTitle,
 #divErrorTitle {
+  font-family: "Noto Sans KR";
+  font-weight: 900;
   font-size: 25px;
   color: #ffffff;
   padding: 10px;
@@ -76,6 +78,7 @@ body {
 #divPatchnoteContent,
 #divKnownissueContent,
 #divErrorContent {
+  font-family: "Noto Sans KR";
   font-size: 20px;
   font-weight: 100;
   background-color: #ffffff;
