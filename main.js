@@ -2,6 +2,7 @@ var htu = 1
 var pt = 1
 var ki = 1
 var er = 1
+var de = 1
 
 document.getElementById("divHowtouseTitle").onclick = function () {
     htu = htu + 1
@@ -36,5 +37,14 @@ document.getElementById("divErrorTitle").onclick = function () {
         document.getElementById("divErrorContent").style.display = "block";
     } else {
         document.getElementById("divErrorContent").style.display = "none";
+    }
+};
+
+document.getElementById("divDownloadErrorTitle").onclick = function () {
+    de = de + 1
+    if (de % 2 == 0) {
+        document.getElementById("divDownloadErrorContent").style.display = "block";
+    } else {
+        document.getElementById("divDownloadErrorContent").style.display = "none";
     }
 };

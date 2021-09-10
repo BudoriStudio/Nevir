@@ -58,12 +58,15 @@ body {
 
 #aButtonDownload {
   color: #ffffff;
+  text-decoration: none;
+  font-weight: 900;
 }
 
 #divHowtouseTitle,
 #divPatchnoteTitle,
 #divKnownissueTitle,
-#divErrorTitle {
+#divErrorTitle,
+#divDownloadErrorTitle {
   font-family: "Noto Sans KR";
   font-weight: 900;
   font-size: 25px;
@@ -74,14 +77,16 @@ body {
 #divHowtouseTitle:hover,
 #divPatchnoteTitle:hover,
 #divKnownissueTitle:hover,
-#divErrorTitle:hover {
+#divErrorTitle:hover,
+#divDownloadErrorTitle:hover {
   background-color: #f7c65f;
 }
 
 #divHowtouseContent,
 #divPatchnoteContent,
 #divKnownissueContent,
-#divErrorContent {
+#divErrorContent,
+#divDownloadErrorContent {
   font-family: "Noto Sans KR";
   font-size: 20px;
   font-weight: 100;
